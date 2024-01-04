@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Bungee';
+    src: url(Bungee-Regular.otf);  
+}
+
+@font-face {
+    font-family: 'Familiar';
+    src: url(Familiar_Pro-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Nick';
+    src: url(Nickainley-Normal.otf);
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url(bg-halloween.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Familiar';
+    
+}
+
+header{
+    height: 10%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    height: 70%;
+    display: flex;
+    
+}
+
+aside{
+    width: 40%;
+}
+
+section{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#fontHallowen{
+    font-family: 'Bungee';
+    font-size: 7em;
+    height: 100px;
+    margin-top: 0;
+
+
+}
+
+#fontHere{
+    font-family: "Nick";
+    color: black;
+    font-size: 7em;
+
+}
+
+#divBtn{
+    margin: 30px;
+}
+
+footer{
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#rodape{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgRedesSociais{
+    width: 50px;
+}
+
+button{
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#btn1{
+    background-color: white;
+    color: gray;
+    margin-right: 10px;
+}
+
+#btn2{
+    background-color: rgb(255, 82, 29);
+    color: white;
+}
+
